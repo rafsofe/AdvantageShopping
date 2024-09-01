@@ -1,0 +1,66 @@
+# Node modules
+node_modules/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/fixtures/
+
+# Arquivos de build e log
+dist/
+build/
+*.log
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Arquivos de configuração do editor
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# NPM
+package-lock.json
+
+# Arquivos temporários
+*.tmp
+*.swp
+
+# Arquivos gerados por IDEs
+*.sublime-workspace
+*.sublime-project
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+*.sln
+*.csproj.user
+*.csproj
+*.dbmdl
+*.suo
+*.ncb
+*.aps
+*.csproj.user
+
+# Arquivos de cache
+.cache/
+
+# Arquivos de backup
+*.bak
+*.old
+*.orig
+
+# Diretórios de dependências
+bower_components/
+
+# Diretórios específicos do Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Arquivos de cobertura
+coverage/
