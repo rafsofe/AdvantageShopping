@@ -7,7 +7,6 @@ node_modules/
 # Cypress
 cypress/videos/
 cypress/screenshots/
-cypress/fixtures/
 
 # Arquivos de build e log
 dist/
