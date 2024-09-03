@@ -1,6 +1,5 @@
-import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor';
+import { Given, Then } from 'cypress-cucumber-preprocessor';
 import HomePage from '../../../support/pageObjects/advantagePage';
-import locators from '../../../support/locators';
 
 Given('que eu acesse a página inicial', () => {
   HomePage.visit();

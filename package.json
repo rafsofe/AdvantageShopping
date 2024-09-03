@@ -3,22 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^20.1.2",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.2",
     "cucumber": "^6.0.7",
     "cypress": "^13.14.1",
-    "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-file-upload": "^5.0.8",
     "cypress-xpath": "^2.0.1"
   },
   "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.2",
     "form-data": "^4.0.0"
   }
 }
