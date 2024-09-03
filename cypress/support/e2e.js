@@ -1,3 +1,2 @@
-import './commandsAPI'
-import './commandsWeb'
+import './commands'
 import 'cypress-file-upload';

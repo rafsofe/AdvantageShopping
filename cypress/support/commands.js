@@ -29,3 +29,4 @@ Cypress.Commands.add('uploadImage', (imagePath) => {
     });
   });
 });
+

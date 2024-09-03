@@ -3,7 +3,7 @@ const locators = {
     logo: '.logoDemo',
     searchInput: '#search',
     autoComplete: '#autoComplete',
-    productName: '.productName',
+    locProductName: '.productName',
     addToCartButton: '.fixedBtn > .roboto-medium',
     shoppingCartLink: '#shoppingCartLink',
     cartProduct: '.sp'
