@@ -32,7 +32,7 @@ npm install cypress --save-dev
 
 #### 5. Abrir o Cypress pela Primeira Vez
 
-npx cypress open
+npm run cypress:open
 
 #### 6. Executar os Testes
 
