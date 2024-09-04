@@ -18,8 +18,12 @@
     "cypress-xpath": "^2.0.1"
   },
   "dependencies": {
-    "cypress-cucumber-preprocessor": "^4.3.0",
     "@badeball/cypress-cucumber-preprocessor": "^20.1.2",
+    "cypress-cucumber-preprocessor": "^4.3.0",
     "form-data": "^4.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e/features/home"
   }
 }
